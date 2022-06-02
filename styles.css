@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #192c49;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: large;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.card {
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 8px;
+  height: 400px;
+  width: 300px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.omer-banner {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.middle {
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.spacer {
+  margin-top: 2rem;
+}
+
+.card-header {
+  padding: 1rem;
+}
+
+.hover:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
